@@ -1,0 +1,801 @@
+<!doctype html>
+<html>
+
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108351166-1"></script>
+<script>
+window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-108351166-1');
+</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta property='og:title' content='Online HTML Obfuscator'>
+<meta property='og:type' content='website'>
+<meta property='og:url' content='https://www.phpkobo.com/html-obfuscator'>
+<meta property='og:description' content='Online HTML Obfuscator for Heavy Obfuscation'>
+<meta property='og:image' content='https://www.phpkobo.com/mod/HTOBF/img/main.png'>
+<meta property='og:image:type' content='image/png'>
+<meta property='og:image:width' content='1024'>
+<meta property='og:image:height' content='1024'>
+<meta property='og:image:alt' content='Online HTML Obfuscator'>
+<meta name="keywords" content="obfuscator, obfuscation">
+<meta name="description" content="Online HTML Obfuscator">
+<title>Online HTML Obfuscator for Heavy Obfuscation</title> 
+<link href="https://www.phpkobo.com/mod/main/v3.00/mod/btpl/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://www.phpkobo.com/mod/main/v3.00/mod/btpl/js/jquery-1.11.1.min.js"></script>
+<script src="https://www.phpkobo.com/mod/main/v3.00/mod/btpl/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://www.phpkobo.com/mod/main/v3.00/mod/btpl/js/CSnsWin.js"></script>
+<link href='https://www.phpkobo.com/mod/main/v3.00/mod/btpl/res/combi.css?v=2.02' rel='stylesheet'/>
+<script src='https://www.phpkobo.com/mod/main/v3.00/mod/btpl/res/combi.js?v=2.02'></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<style>
+html{scrollbar-color:#abc8e5 #dee7ef;}
+</style>
+<script>
+_no_scrollbtn_=true;
+</script>
+<style>
+.page-body{ margin:0 auto; max-width:1110px; display:flex; flex-direction:row; } 
+.side-menu{ flex:0 0 310px; height:100vh; padding-right:10px; } 
+.main-content{ flex:0 1 800px; padding:0 15px; } 
+@media (max-width:980px){ .side-menu{ display:none; } }
+</style>
+</head>
+
+<body>
+
+<header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-menu" accesskey="m">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="./" style='position:relative;top:-5px;'>
+<span class="glyphicon glyphicon-th">
+<img class='site-title' src='https://www.phpkobo.com/mod/main/v3.00/mod/btpl/img/header/title.png' style='vertical-align:-6px; width:85px;height:30px;' border='0'/>
+</span>
+</a>
+</div>
+<div class="collapse navbar-collapse" id="top-menu">
+<ul class="nav navbar-nav navbar-right">
+<li>
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+<span class="glyphicon glyphicon-star"></span> Scripts
+</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="css-obfuscator">Online CSS Obfuscator</a></li>
+<li><a href="link-obfuscator">Online Link Obfuscator</a></li>
+<li><a href="html-obfuscator">Online HTML Obfuscator</a></li>
+<li><a href="etobf">Elements Tab Obfuscator</a></li>
+<li><a href="ajax-news-ticker">AjaxNewsTicker</a></li>
+<li><a href="ajax-countdown">AjaxCountDown</a></li>
+<li><a href="php-infinite-scroll">php Infinite Scroll</a></li>
+<li><a href="fadein_slideshow.php">Fade-In Slideshow</a></li>
+<li><a href="ajax-poll-admin">Ajax Poll Admin</a></li>
+<li><a href="ajax_poll.php">Ajax Poll Script</a></li>
+</ul>
+</li>
+<li>
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+<span class="glyphicon glyphicon-envelope"></span> Support
+</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="contact-us">Contact Us</a></li>
+<li><a href="presales-question">Ask a pre-sales question</a></li>
+<li><a href="support-ticket">Submit a support ticket</a></li>
+<li><a href="free-estimate-request-form">Free estimate request form</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<style>main{visibility:hidden;}</style>
+<style>main{margin-bottom:140px;}</style>
+</header>
+
+<main>
+
+<div class="page-body">
+
+<div class="side-menu">
+<style>
+.menu-item { display:block; margin:0 0 0 0; padding:10px 10px; text-decoration:none; background-color:white; border-style:solid; border-width:0 0 1px 5px; border-left-color:transparent; border-bottom-color:#ddd; } 
+.menu-item:hover { background-color:#f8f8f8; text-decoration:none; } 
+.menu-space { height:40px; } 
+.menu-item-tbl { display:table; } 
+.menu-item-row { display:table-row; } 
+.menu-item-icon { display:table-cell; padding-right:5px; vertical-align:top; } 
+.menu-item-caption { display:table-cell; vertical-align:top; } 
+.menu-item:hover .menu-item-icon .glyphicon { color:#080; animation-name:kf-menu-item-icon; animation-duration:2s; animation-timing-function:linear; animation-iteration-count:infinite; } 
+@keyframes kf-menu-item-icon { 0% { transform: rotate3d(0,0,0,0deg); } 100% { transform: rotate3d(1,1,1,360deg); } }
+</style>
+<a class='menu-item' href='https://www.phpkobo.com/css-obfuscator'><div class="menu-item-tbl"><div class="menu-item-row"><div class="menu-item-icon"><span class="glyphicon glyphicon-th-large" style="font-size:90%;"></span></div><div class="menu-item-caption">Online CSS Obfuscator</div></div></div></a>
+<a class='menu-item' href='https://www.phpkobo.com/link-obfuscator'><div class="menu-item-tbl"><div class="menu-item-row"><div class="menu-item-icon"><span class="glyphicon glyphicon-th-large" style="font-size:90%;"></span></div><div class="menu-item-caption">Online Link Obfuscator</div></div></div></a>
+<a class='menu-item' href='https://www.phpkobo.com/html-obfuscator'><div class="menu-item-tbl"><div class="menu-item-row"><div class="menu-item-icon"><span class="glyphicon glyphicon-th-large" style="font-size:90%;"></span></div><div class="menu-item-caption">Online HTML Obfuscator</div></div></div></a>
+<a class='menu-item' href='https://www.phpkobo.com/etobf'><div class="menu-item-tbl"><div class="menu-item-row"><div class="menu-item-icon"><span class="glyphicon glyphicon-th-large" style="font-size:90%;"></span></div><div class="menu-item-caption">Elements Tab Obfuscator</div></div></div></a>
+<a class='menu-item' href='https://www.phpkobo.com/ajax-news-ticker'><div class="menu-item-tbl"><div class="menu-item-row"><div class="menu-item-icon"><span class="glyphicon glyphicon-th-large" style="font-size:90%;"></span></div><div class="menu-item-caption">AjaxNewsTicker</div></div></div></a>
+<a class='menu-item' href='https://www.phpkobo.com/ajax-countdown'><div class="menu-item-tbl"><div class="menu-item-row"><div class="menu-item-icon"><span class="glyphicon glyphicon-th-large" style="font-size:90%;"></span></div><div class="menu-item-caption">AjaxCountDown</div></div></div></a>
+<a class='menu-item' href='https://www.phpkobo.com/php-infinite-scroll'><div class="menu-item-tbl"><div class="menu-item-row"><div class="menu-item-icon"><span class="glyphicon glyphicon-th-large" style="font-size:90%;"></span></div><div class="menu-item-caption">php Infinite Scroll</div></div></div></a>
+<a class='menu-item' href='https://www.phpkobo.com/fadein_slideshow.php'><div class="menu-item-tbl"><div class="menu-item-row"><div class="menu-item-icon"><span class="glyphicon glyphicon-th-large" style="font-size:90%;"></span></div><div class="menu-item-caption">Fade-In Slideshow</div></div></div></a>
+<a class='menu-item' href='https://www.phpkobo.com/ajax-poll-admin'><div class="menu-item-tbl"><div class="menu-item-row"><div class="menu-item-icon"><span class="glyphicon glyphicon-th-large" style="font-size:90%;"></span></div><div class="menu-item-caption">Ajax Poll Admin</div></div></div></a>
+<a class='menu-item' href='https://www.phpkobo.com/ajax_poll.php'><div class="menu-item-tbl"><div class="menu-item-row"><div class="menu-item-icon"><span class="glyphicon glyphicon-th-large" style="font-size:90%;"></span></div><div class="menu-item-caption">Ajax Poll Script</div></div></div></a>
+</div>
+
+<div class="main-content">
+<style>
+body > main h3.page-title-sub { margin:40px 0 5px 0; font-size:16px; color:#468acf; } 
+body > main h1.page-title-main { margin:0 0 20px 0; font-size:260%; }
+</style>
+<h3 class='page-title page-title-sub'>Heavily Obfuscate HTML Code</h3>
+<h1 class='page-title page-title-main'>Online HTML Obfuscator</h1>
+<article class="std">
+<style>
+.section{ margin-bottom:40px; line-height:1.6; } 
+.section-title{ position:relative; padding:20px; font-size:100%; font-weight:bold; background-color:#eee; margin-bottom:15px; border-style:solid; border-width:0 0 0 10px; border-color:#ccc; border-radius:0 5px 5px 0; } 
+.section-title span{ position:relative; top:3px; }
+</style>
+<style>
+.about { margin-top:40px; } 
+.hs { font-weight:bold; color:#080; }
+</style>
+<div class="section about">
+<p>This is a free online tool that allows you to obfuscate HTML code. </p>
+<p><b>How to use Online HTML Obfuscator: </b></p>
+<ol>
+<li>Enter your HTML code in the input box below.</li>
+<li>Click <b>Obfuscate</b>. Online HTML Obfuscator will convert the HTML code to obfuscated JavaScript code.</li>
+</ol>
+</div>
+<style>
+.codebox-section{ margin-bottom:20px; } 
+.codebox-form-group{ margin-bottom:15px; } 
+.codebox-label{ color:#333; font-weight:bold; margin-bottom:3px; } 
+.codebox-input-group{ position:relative; } 
+.codebox-input{ position:relative; display:block; width:100%; height:200px; padding:10px; font-family:monospace; resize:none; border-color:#ccc; border-radius:5px; scrollbar-color:#abc8e5 #dee7ef; } 
+.codebox-input:focus{ border-color:#66afe9; outline:0; box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6); } 
+.codebox-input[name="icode"]{ white-space:pre; tab-size:4; } 
+.codebox-input[name="ocode"]{ word-break:break-all; } 
+.codebox-tatools{ position:relative; padding:0 20px; display:flex; justify-content:flex-start; align-items:flex-start; gap:10px; z-index:1; } 
+.codebox-tatools button{ padding:5px 15px; min-width:100px; border:none; border-radius:0 0 5px 5px; color:white; background-color:#468acf; } 
+.codebox-tatools button:hover{ background-color:rgb(40, 96, 144); } 
+@media (max-width:500px){ .codebox-tatools{ padding:5px 20px; display:block; } .codebox-tatools button{ margin:0 0 5px 5px; border-radius:5px; } } 
+.codebox-label-box{ width:100%; display:flex; justify-content:space-between; align-items:center; gap:10px; } 
+.codebox-engine-link{ position:relative; display:inline-block; margin-right:5px; font-size:90%; font-style:italic; color:#888; animation-name:kf-codebox-engine-link; animation-iteration-count:1; animation-fill-mode:both; animation-delay:4s; animation-duration:0.6s; } 
+@keyframes kf-codebox-engine-link{ 0%{ opacity:0; left:-100px; } 100%{ opacity:1; left:0; } } 
+.codebox-engine-link a{ font-weight:bold; } 
+.codebox-checkbox-group{ margin:0; padding:4px 0; display:flex; justify-content:flex-start; align-items:center; gap:10px; } 
+.codebox-checkbox-group-item{ font-weight:normal; } 
+.codebox-checkbox-text{ margin-bottom:4px; user-select:none; } 
+.codebox-checkbox{ margin:0 !important; width:30px !important; height:30px !important; } 
+.codebox-toolbox{ padding:10px 0 20px 0; text-align:center; } 
+.codebox-radiate{ position:absolute; top:0; bottom:0; right:0; left:0; border-radius:10px; opacity:0; } 
+.codebox-fanfare .codebox-radiate{ border:1px solid #66afe9; animation-name:kf-codebox-radiate; animation-duration:0.9s; animation-iteration-count:3; animation-fill-mode:backwards; } 
+.codebox-radiate[data-idx="1"]{ animation-delay:0s } 
+.codebox-radiate[data-idx="2"]{ animation-delay:0.3s } 
+.codebox-radiate[data-idx="3"]{ animation-delay:0.6s } 
+@keyframes kf-codebox-radiate{ 0%{ opacity:1; transform:scale(1); } 100%{ opacity:0; transform:scale(1.2,1.4); } } 
+.codebox-waitscreen{ position:fixed; top:0; bottom:0; left:0; right:0; color:white; background:rgba(0,0,0,0.3); z-index:1000000; cursor:wait; } 
+.codebox-waitscreen .codebox-waiticon{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:100px; height:100px; } 
+.codebox-waiticon svg{ color:rgba(255,255,255,0.3); animation-name:kf-codebox-waiticon-svg; animation-iteration-count:infinite; animation-timing-function:linear; animation-duration:3s; } 
+@keyframes kf-codebox-waiticon-svg{ 100%{transform:rotateZ(360deg);} } 
+.codebox-form-preview{ display:none; }
+</style>
+<div class="codebox-section">
+<form class="codebox-form-preview" action="https://www.phpkobo.com/html-viewer" method="POST" target="_blank">
+<!--[N-T-A]-->
+<textarea name="code"></textarea>
+<!--[/N-T-A]-->
+</form>
+<form class="codebox-form" action="https://www.phpkobo.com/html-obfuscator" method="POST" spellcheck="false">
+<input type="hidden" name="cmd" value="obfuscate"/>
+<div class="codebox-form-group codebox-type-i">
+<div class="codebox-label">INPUT (HTML)</div>
+<div class="codebox-input-group">
+<!--[N-T-A]-->
+<textarea class="codebox-input" name="icode">&lt;!doctype html&gt;&#10;&lt;html&gt;&#10;&#10;&lt;head&gt;&#10;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot;/&gt;&#10;&#10;&lt;title&gt;HTML Obfuscator : Sample Page&lt;/title&gt;&#10;&#10;&lt;style&gt;&#10;*,&#10;*::before,&#10;*::after{&#10;	box-sizing:border-box;&#10;}&#10;body{&#10;	position:relative;&#10;	margin:0;&#10;	padding:0;&#10;	width:100vw;&#10;	height:100vh;&#10;	background:linear-gradient(&#10;		to bottom,#fec 0%,#fff 100%);&#10;	overflow:hidden;&#10;}&#10;.info{&#10;	position:relative;&#10;	margin:30px;&#10;	padding:30px;&#10;	font-family:&quot;Times New Roman&quot;;&#10;	color:orange;&#10;	border:1px solid orange;&#10;	background:rgba(255,255,255,0.8);&#10;	z-index:100;&#10;}&#10;.info a{&#10;	color:orange;&#10;	font-weight:bold;&#10;}&#10;.info a:hover{&#10;	color:#c18b28;&#10;}&#10;.info .title{&#10;	margin-bottom:15px;&#10;	font-size:36px;&#10;}&#10;.info .desc{&#10;	font-size:24px;&#10;}&#10;&lt;/style&gt;&#10;&#10;&lt;script&gt;&#10;&quot;use strict&quot;;&#10;(function(){&#10;	function $ce(tagName){&#10;		return document.createElement(tagName);&#10;	};&#10;&#10;	function getRandomInt(min,max){&#10;		return Math.floor(Math.random()*(max-min+1))+min;&#10;	};&#10;&#10;	function appendStyle(style){&#10;		const el=$ce(&quot;style&quot;);&#10;		el.type=&quot;text/css&quot;;&#10;		if(el.styleSheet){&#10;			el.styleSheet.cssText=style;&#10;		}else{&#10;			el.appendChild(document.createTextNode(style));&#10;		}&#10;		document.getElementsByTagName(&quot;head&quot;)[0].appendChild(el);&#10;		return el;&#10;	};&#10;&#10;	function onEnd(el,callback,ename){&#10;		const func=function(e){&#10;			if(el==e.srcElement){&#10;				el.removeEventListener(ename,func);&#10;				if(callback){callback(e);}&#10;			}&#10;		};&#10;		el.addEventListener(ename,func);&#10;	};&#10;&#10;	function onAnimationEnd(el,callback){&#10;		onEnd(el,callback,&quot;animationend&quot;);&#10;	};&#10;&#10;	function insertEmoji(px){&#10;		const yy=0;&#10;		const style=`&#10;#${px.id}.ctower{&#10;	position:absolute;&#10;	left:0;&#10;	top:0;&#10;	width:${px.size}em;&#10;	height:100%;&#10;}&#10;#${px.id}.ctower .cbox{&#10;	position:relative;&#10;	width:100%;&#10;	height:${px.size}em;&#10;	display:flex;&#10;	justify-content:center;&#10;	align-items:center;&#10;	transform:translateY(-100%);&#10;}&#10;#${px.id}.ctower .char{&#10;	display:inline-block;&#10;	font-size:${px.size}em;&#10;	line-height:1.1;&#10;}&#10;#${px.id}.ctower{&#10;	animation-name:kf-ctower-${px.id};&#10;	animation-fill-mode:forwards;&#10;	animation-duration:${px.dura}s;&#10;	animation-timing-function:linear;&#10;}&#10;@keyframes kf-ctower-${px.id}{&#10;	0%{&#10;		left:0%;&#10;		transform:translate(-${100+px.wk}%);&#10;	}&#10;	100%{&#10;		left:100%;&#10;		transform:translate(${px.wk}%);&#10;	}&#10;}&#10;#${px.id}.ctower .cbox{&#10;	animation-name:kf-cbox-${px.id};&#10;	animation-fill-mode:forwards;&#10;	animation-duration:${px.dura}s;&#10;}&#10;@keyframes kf-cbox-${px.id}{&#10;	0%{&#10;		top:${100-20*px.hk-yy}%;&#10;		animation-timing-function:ease-in;&#10;	}&#10;	15%{&#10;		top:${100-0*px.hk-yy}%;&#10;		animation-timing-function:ease-out;&#10;	}&#10;	30%{&#10;		top:${100-15*px.hk-yy}%;&#10;		animation-timing-function:ease-in;&#10;	}&#10;	45%{&#10;		top:${100-0*px.hk-yy}%;&#10;		animation-timing-function:ease-out;&#10;	}&#10;	60%{&#10;		top:${100-10*px.hk-yy}%;&#10;		animation-timing-function:ease-in;&#10;	}&#10;	75%{&#10;		top:${100-0*px.hk-yy}%;&#10;		animation-timing-function:ease-out;&#10;	}&#10;	90%{&#10;		top:${100-7*px.hk-yy}%;&#10;		animation-timing-function:ease-in;&#10;	}&#10;	100%{&#10;		top:${100-0*px.hk-yy}%;&#10;	}&#10;}&#10;#${px.id}.ctower .char{&#10;	animation-name:kf-char-${px.id};&#10;	animation-fill-mode:forwards;&#10;	animation-duration:${px.spin}s;&#10;	animation-iteration-count:infinite;&#10;	animation-timing-function:linear;&#10;}&#10;@keyframes kf-char-${px.id}{&#10;	0%{&#10;		transform:rotateZ(0);&#10;	}&#10;	100%{&#10;		transform:rotateZ(360deg);&#10;	}&#10;}&#10;`;&#10;		const el_style=appendStyle(style);&#10;&#10;		const el_char=$ce(&quot;div&quot;);&#10;		el_char.className=&quot;char&quot;;&#10;		el_char.innerHTML=px.char;&#10;&#10;		const el_cbox=$ce(&quot;div&quot;);&#10;		el_cbox.className=&quot;cbox&quot;;&#10;		el_cbox.appendChild(el_char);&#10;&#10;		const el_ctower=$ce(&quot;div&quot;);&#10;		el_ctower.id=px.id;&#10;		el_ctower.className=&quot;ctower&quot;;&#10;		el_ctower.appendChild(el_cbox);&#10;&#10;		onAnimationEnd(el_ctower,function(){&#10;			el_ctower.remove();&#10;			el_style.remove();&#10;		});&#10;&#10;		document.body.appendChild(el_ctower);&#10;	};&#10;&#10;	const emojix=[&#10;		&quot;😀&quot;,&quot;😃&quot;,&quot;😄&quot;,&quot;😁&quot;,&quot;😆&quot;,&quot;😅&quot;,&quot;😂&quot;,&quot;🤣&quot;,&quot;😊&quot;,&quot;😇&quot;,&#10;		&quot;🙂&quot;,&quot;🙃&quot;,&quot;😉&quot;,&quot;😌&quot;,&quot;😍&quot;,&quot;😘&quot;,&quot;😗&quot;,&quot;😙&quot;,&quot;😚&quot;,&quot;😋&quot;,&#10;		&quot;😛&quot;,&quot;😝&quot;,&quot;😜&quot;,&quot;🤪&quot;,&quot;🤨&quot;,&quot;🧐&quot;,&quot;🤓&quot;,&quot;😎&quot;,&quot;🤩&quot;,&quot;😏&quot;,&#10;		&quot;😒&quot;,&quot;😞&quot;,&quot;😔&quot;,&quot;😟&quot;,&quot;😕&quot;,&quot;🙁&quot;,&quot;😣&quot;,&quot;😖&quot;,&quot;😫&quot;,&quot;😩&quot;,&#10;		&quot;😢&quot;,&quot;😭&quot;,&quot;😤&quot;,&quot;😠&quot;,&quot;😡&quot;,&quot;🤬&quot;,&quot;🤯&quot;,&quot;😳&quot;,&quot;😱&quot;,&quot;😨&quot;,&#10;		&quot;😰&quot;,&quot;😥&quot;,&quot;😓&quot;,&quot;🤗&quot;,&quot;🤔&quot;,&quot;😑&quot;,&quot;😬&quot;,&quot;🙄&quot;,&quot;😲&quot;,&quot;😴&quot;,&#10;		&quot;🤤&quot;,&quot;😪&quot;,&quot;😵&quot;,&quot;😵‍&quot;,&quot;🤐&quot;,&quot;🤢&quot;,&quot;😷&quot;,&quot;🤒&quot;,&quot;🤕&quot;,&quot;🤑&quot;,&#10;		&quot;🤠&quot;,&quot;😈&quot;];&#10;&#10;	let idx=0;&#10;	const timer_id=setInterval(function(){&#10;		if(document.querySelectorAll(&quot;.ctower&quot;).length&lt;10){&#10;			idx++;&#10;			const id=&quot;id&quot;+(10000+idx);&#10;			const px={&#10;				id,&#10;				char:emojix[getRandomInt(0,emojix.length-1)],&#10;				size:getRandomInt(4,10),&#10;				dura:getRandomInt(4,8),&#10;				spin:getRandomInt(0.8,5),&#10;				wk:getRandomInt(20,100),&#10;				hk:getRandomInt(2,5)&#10;			};&#10;			insertEmoji(px);&#10;		}&#10;	},1000);&#10;})();&#10;&lt;/script&gt;&#10;&#10;&lt;/head&gt;&#10;&#10;&lt;body&gt;&#10;&#10;&lt;!-- [BEGIN] info --&gt;&#10;&lt;div class=&quot;info&quot;&gt;&#10;	&lt;div class=&quot;title&quot;&gt;Bouncing Emoji&lt;/div&gt;&#10;	&lt;div class=&quot;desc&quot;&gt;This is a sample HTML page for&#10;		&lt;a href=&quot;http://www.phpkobo.com/html-obfuscator&quot; target=&quot;_blank&quot;&gt;HTML Obfuscator&lt;/a&gt;&#10;	&lt;/div&gt;&#10;&lt;/div&gt;&#10;&lt;!-- [END] info --&gt;&#10;&#10;&lt;/body&gt;&#10;&#10;&lt;/html&gt;&#10;</textarea>
+<!--[/N-T-A]-->
+</div>
+<div class="codebox-tatools">
+<button class="codebox-btn-select">Select</button>
+<button class="codebox-btn-copy">Copy</button>
+<button class="codebox-btn-download">Download</button>
+</div>
+</div>
+<div class="list-group codebox-options">
+<li class="list-group-item list-group-item-info">Obfuscation Options</li>
+<li class="list-group-item" style="list-style-type:none;padding-bottom:5px;">
+<label class="codebox-checkbox-group">
+<div class="codebox-checkbox-group-item">
+<input class="codebox-checkbox" type="checkbox" name="remove-script" value="y" checked>
+</div>
+<div class="codebox-checkbox-group-item codebox-checkbox-text">Remove all script blocks (<b>&lt;script&gt;...&lt;/script&gt;</b>) from the Elements tab in DevTools</div>
+</label>
+<label class="codebox-checkbox-group">
+<div class="codebox-checkbox-group-item">
+<input class="codebox-checkbox" type="checkbox" name="remove-comment" value="y" checked>
+</div>
+<div class="codebox-checkbox-group-item codebox-checkbox-text">Remove all comment blocks (<b>&lt;!--...--&gt;</b>) from the Elements tab in DevTools</div>
+</label>
+</li>
+</div>
+<div class="codebox-toolbox">
+<button type="submit" class="btn btn-primary btn-lg codebox-submit">Obfuscate</button>
+</div>
+<div class="codebox-form-group codebox-type-o">
+<div class="codebox-label-box">
+<div class="codebox-label">OUTPUT (JavaScript)</div>
+</div>
+<div class="codebox-input-group">
+<div class="codebox-radiate" data-idx="1"></div>
+<div class="codebox-radiate" data-idx="2"></div>
+<div class="codebox-radiate" data-idx="3"></div> 
+<!--[N-T-A]-->
+<textarea class="codebox-input" name="ocode"></textarea>
+<!--[/N-T-A]-->
+</div>
+<div class="codebox-tatools">
+<button class="codebox-btn-select">Select</button>
+<button class="codebox-btn-copy">Copy</button>
+<button class="codebox-btn-download">Download</button>
+</div>
+</div>
+</form>
+</div>
+<script>
+"use strict"; 
+function alertCopied(px){ 
+    function $ce(tagName){ 
+        return document.createElement(tagName); 
+    }; 
+    function appendStyle(style){ 
+        const el=$ce("style"); 
+        el.type="text/css"; 
+        if(el.styleSheet){ 
+            el.styleSheet.cssText=style; 
+        }else{ 
+            el.appendChild(document.createTextNode(style)); 
+        } 
+        document.getElementsByTagName("head")[0].appendChild(el); 
+        return el; 
+    }; 
+    function onEnd(el,callback,ename){ 
+        const func=function(e){ 
+            if(el==e.srcElement){ 
+                el.removeEventListener(ename,func); 
+                if(callback){callback(e);} 
+            } 
+        }; 
+        el.addEventListener(ename,func); 
+    }; 
+    function onAnimationEnd(el,callback){ 
+        onEnd(el,callback,"animationend"); 
+    }; 
+    function CClipBox(px){ 
+        let el_clipbox=null; 
+        let el_line1=null; 
+        let el_line2=null; 
+        function setup(){ 
+            const style=` 
+                .clipbox{ 
+                    display:table-cell; 
+                    position:relative; 
+                    width:50px; 
+                    min-width:50px; 
+                    height:50px; 
+                    background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke="white" stroke-width="0.2" fill="white" class="bi bi-clipboard" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/></svg>'); 
+                    background-size:cover; 
+                    font-size:4px; 
+                } 
+                 .clipbox-mark{ 
+                    position:absolute; 
+                    top:3.5em; 
+                    left:4.6em; 
+                    width:3.5em; 
+                    height:6em; 
+                    transform:rotateZ(40deg); 
+                } 
+                .clipbox-line1{ 
+                    position:absolute; 
+                    bottom:0; 
+                    left:0; 
+                    width:0; 
+                    height:1em; 
+                    background-color:white; 
+                } 
+                .clipbox.clipbox-play .clipbox-line1{ 
+                    animation-name:kf-clipbox-line1; 
+                    animation-iteration-count:1; 
+                    animation-fill-mode:forwards; 
+                    animation-delay:.5s; 
+                    animation-duration:.2s; 
+                } 
+                @keyframes kf-clipbox-line1{ 
+                    0%{ width:0; } 
+                    100%{ width:100%; } 
+                } 
+                .clipbox-line2{ 
+                    position:absolute; 
+                    bottom:0; 
+                    right:0; 
+                    width:1em; 
+                    height:0; 
+                    background-color:white; 
+                } 
+                .clipbox.clipbox-play .clipbox-line2{ 
+                    animation-name:kf-clipbox-line2; 
+                    animation-iteration-count:1; 
+                    animation-fill-mode:forwards; 
+                    animation-delay:.7s; 
+                    animation-duration:.2s; 
+                } 
+                @keyframes kf-clipbox-line2{ 
+                    0%{ height:0; } 
+                    100%{ height:100%; } 
+                }`; 
+            const el_prev=document.getElementById("style-clipbox"); 
+            if(el_prev){el_prev.remove();} 
+            const el_style=appendStyle(style); 
+            el_style.id="style-clipbox"; 
+            el_line1=$ce("div"); 
+            el_line1.className="clipbox-line1"; 
+            el_line2=$ce("div"); 
+            el_line2.className="clipbox-line2"; 
+            const el_mark=$ce("div"); 
+            el_mark.className="clipbox-mark"; 
+            el_mark.appendChild(el_line1); 
+            el_mark.appendChild(el_line2); 
+            el_clipbox=$ce("div"); 
+            el_clipbox.className="clipbox"; 
+            el_clipbox.appendChild(el_mark); 
+            return el_clipbox; 
+        }; 
+        function run(px){ 
+            return new Promise(function(resolve){ 
+                onAnimationEnd(el_line2,function(){ 
+                    resolve(); 
+                }); 
+                el_clipbox.classList.add("clipbox-play"); 
+            }); 
+        }; 
+        return{setup,run}; 
+    }; 
+    function CAlertBox(px){ 
+        let el_alertbox=null; 
+        let clipbox=null; 
+        function setup(params){ 
+            const style=` 
+                .alertbox{ 
+                    position:fixed; 
+                    top:0; 
+                    left:0; 
+                    color:white; 
+                    background:#2ecc71; 
+                    opacity:0; 
+                    transition:opacity 0.6s; 
+                    padding:10px; 
+                    border-radius:5px; 
+                    box-shadow:1px 1px 4px #2ecc71; 
+                    z-index:1000; 
+                } 
+                .iconbox{ 
+                    display:table-cell; 
+                    vertical-align:middle; 
+                    width:50px; 
+                } 
+                .msgbox{ 
+                    display:table-cell; 
+                    padding-left:10px; 
+                    padding-right:5px; 
+                    vertical-align:middle; 
+                    font-family:"Times New Roman"; 
+                    font-style:italic; 
+                    font-size:18px; 
+                    letter-spacing:1px; 
+                    white-space:nowrap; 
+                }`; 
+            const el_prev=document.getElementById("style-alertbox"); 
+            if(el_prev){el_prev.remove();} 
+            const el_style=appendStyle(style); 
+            el_style.id="style-alertbox"; 
+            clipbox=CClipBox(); 
+            const el_clipbox=clipbox.setup(); 
+            const el_iconbox=$ce("div"); 
+            el_iconbox.className="iconbox"; 
+            el_iconbox.appendChild(el_clipbox); 
+            const el_msgbox=$ce("div"); 
+            el_msgbox.className="msgbox"; 
+            el_msgbox.innerHTML=px.msg; 
+            el_alertbox=$ce("div"); 
+            el_alertbox.className="alertbox"; 
+            el_alertbox.appendChild(el_iconbox); 
+            el_alertbox.appendChild(el_msgbox); 
+            document.body.appendChild(el_alertbox); 
+            const rect1=params.rect_start; 
+            const x1=rect1.x+rect1.width/2; 
+            const y1=rect1.y+rect1.height/2; 
+            const cx=x1; 
+            const cy=y1+100*((y1>200)?-1:1); 
+            const rect2=el_alertbox.getBoundingClientRect(); 
+            const w2=rect2.width; 
+            const h2=rect2.height; 
+            const x2=parseInt(cx-w2/2); 
+            const y2=parseInt(cy-h2/2); 
+            el_alertbox.style.top=y2+"px"; 
+            el_alertbox.style.left=x2+"px"; 
+            return el_alertbox; 
+        }; 
+        function run(px){ 
+            return new Promise(function(resolve){ 
+                el_alertbox.style.opacity=1; 
+                const promise1=clipbox.run(); 
+                promise1.then(()=>{ 
+                    setTimeout(function(){ 
+                        el_alertbox.style.opacity=0; 
+                        setTimeout(function(){ 
+                            el_alertbox.remove(); 
+                            resolve(); 
+                        },1*1000); 
+                    },1*1000); 
+                }); 
+            }); 
+        }; 
+        return{setup,run}; 
+    }; 
+    function runTransitBox(px){ 
+        const style=` 
+            .transitbox{ 
+                position:fixed; 
+                top:${px.rect1.top}px; 
+                left:${px.rect1.left}px; 
+                width:${px.rect1.width}px; 
+                height:${px.rect1.height}px; 
+                border-radius:5px; 
+                background-color:rgba(46,204,113,0.3); 
+                border:2px dotted #2ecc71; 
+                animation-name:kf-transitbox; 
+                animation-fill-mode:forwards; 
+                animation-duration:${px.duration}; 
+                z-index:100; 
+            } 
+            @keyframes kf-transitbox{ 
+                100%{ 
+                    top:${px.rect2.top}px; 
+                    left:${px.rect2.left}px; 
+                    width:${px.rect2.width}px; 
+                    height:${px.rect2.height}px; 
+                } 
+            } 
+        `; 
+        const el_prev=document.getElementById("style-transitbox"); 
+        if(el_prev){el_prev.remove();} 
+        const el_style=appendStyle(style); 
+        el_style.id="style-transitbox"; 
+        const el_transitbox=$ce("div"); 
+        el_transitbox.className="transitbox"; 
+        return new Promise(function(resolve){ 
+            onAnimationEnd(el_transitbox,function(){ 
+                setTimeout(function(){ 
+                    el_transitbox.remove(); 
+                    el_style.remove(); 
+                },0.5*1000); 
+                resolve(); 
+            }); 
+            document.body.appendChild(el_transitbox); 
+        }); 
+    }; 
+    async function run(){ 
+        const alertbox=CAlertBox({ 
+            msg:px.msg 
+        }); 
+        const el_alertbox=alertbox.setup({ 
+            rect_start:px.rect_start 
+        }); 
+        await runTransitBox({ 
+            rect1:px.rect_start, 
+            rect2:el_alertbox.getBoundingClientRect(), 
+            duration:".6s" 
+        }); 
+        await alertbox.run({ 
+            duration:".6s" 
+        }); 
+    }; 
+    run(); 
+} 
+
+// Fungsi untuk mendownload file
+function downloadFile(filename, content) {
+    const blob = new Blob([content], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+(function(){ 
+    function $(selector,el_ref){ 
+        return (el_ref?el_ref:document).querySelector(selector); 
+    }; 
+    function $ce(tagName){ 
+        return document.createElement(tagName); 
+    }; 
+    const cmd="form"; 
+    const el_section=$(".codebox-section"); 
+    const el_form=$(".codebox-form",el_section); 
+    const el_submit=$(".codebox-submit",el_form); 
+    const el_icode_box=$(".codebox-type-i .codebox-input-group",el_form); 
+    const el_icode=$(".codebox-input[name='icode']",el_icode_box); 
+    const el_ocode_box=$(".codebox-type-o .codebox-input-group",el_form); 
+    const el_ocode=$(".codebox-input[name='ocode']",el_ocode_box); 
+    const n_maxchars=500000; 
+    const Clipboard=(function(){ 
+        function put(text){ 
+            try { 
+                if(window.clipboardData&&window.clipboardData.setData){ 
+                    return clipboardData.setData("Text",text); 
+                }else if(document.queryCommandSupported&&document.queryCommandSupported("copy")){ 
+                    const textarea=document.createElement("textarea"); 
+                    textarea.textContent=text; 
+                    textarea.style.position="fixed"; 
+                    document.body.appendChild(textarea); 
+                    textarea.select(); 
+                    try { 
+                        return document.execCommand("copy"); 
+                    }catch(ex){ 
+                        return false; 
+                    }finally{ 
+                        document.body.removeChild(textarea); 
+                    } 
+                    return true; 
+                }else{ 
+                    return false; 
+                } 
+            }catch(ex){ 
+                return false; 
+            } 
+            return true; 
+        }; 
+        return{put}; 
+    })(); 
+    function isFireFox(){ 
+        return (navigator.userAgent.toLowerCase().indexOf('firefox')>-1); 
+    }; 
+    function selectText(el){ 
+        el.select(); 
+        if(el.scrollTo){ 
+            if(!isFireFox()){ 
+                el.scrollTo(0,0); 
+            }else{ 
+                setTimeout(function(){ 
+                    el.scrollTo(0,0); 
+                },10); 
+            } 
+        } 
+    }; 
+    function fanfare(){ 
+        document.querySelector("main").style.overflow="hidden"; 
+        setTimeout(function(){ 
+            el_ocode_box.classList.add("codebox-fanfare"); 
+        },0.4*1000); 
+    } 
+    const WaitScreen=(function(){ 
+        let el_ws=null; 
+        function open(){ 
+            if(el_ws){return;} 
+            el_ws=$ce("div"); 
+            el_ws.className="codebox-waitscreen"; 
+            const el_wi=$ce("div"); 
+            el_wi.className="codebox-waiticon"; 
+            const svg=` 
+                <svg fill="currentColor" viewBox="0 0 16 16"><path d="M7.068.727c.243-.97 1.62-.97 1.864 0l.071.286a.96.96 0 0 0 1.622.434l.205-.211c.695-.719 1.888-.03 1.613.931l-.08.284a.96.96 0 0 0 1.187 1.187l.283-.081c.96-.275 1.65.918.931 1.613l-.211.205a.96.96 0 0 0 .434 1.622l.286.071c.97.243.97 1.62 0 1.864l-.286.071a.96.96 0 0 0-.434 1.622l.211.205c.719.695.03 1.888-.931 1.613l-.284-.08a.96.96 0 0 0-1.187 1.187l.081.283c.275.96-.918 1.65-1.613.931l-.205-.211a.96.96 0 0 0-1.622.434l-.071.286c-.243.97-1.62.97-1.864 0l-.071-.286a.96.96 0 0 0-1.622-.434l-.205.211c-.695.719-1.888.03-1.613-.931l.08-.284a.96.96 0 0 0-1.186-1.187l-.284.081c-.96.275-1.65-.918-.931-1.613l.211-.205a.96.96 0 0 0-.434-1.622l-.286-.071c-.97-.243-.97-1.62 0-1.864l.286-.071a.96.96 0 0 0 .434-1.622l-.211-.205c-.719-.695-.03-1.888.931-1.613l.284.08a.96.96 0 0 0 1.187-1.186l-.081-.284c-.275-.96.918-1.65 1.613-.931l.205.211a.96.96 0 0 0 1.622-.434zM12.973 8.5H8.25l-2.834 3.779A4.998 4.998 0 0 0 12.973 8.5m0-1a4.998 4.998 0 0 0-7.557-3.779l2.834 3.78zM5.048 3.967l-.087.065zm-.431.355A4.98 4.98 0 0 0 3.002 8c0 1.455.622 2.765 1.615 3.678L7.375 8zm.344 7.646.087.065z"/></svg> 
+            `; 
+            el_wi.innerHTML=svg; 
+            el_ws.appendChild(el_wi); 
+            document.body.appendChild(el_ws); 
+        }; 
+        function close(){ 
+            if(!el_ws){return;} 
+            el_ws.remove(); 
+            el_ws=null; 
+        }; 
+        return{open,close}; 
+    })(); 
+    function scrollToOCode(){ 
+        const rect=el_ocode.getBoundingClientRect(); 
+        const delta=150; 
+        let top; 
+        if((rect.bottom-rect.top+delta)>window.innerHeight){ 
+            top=(document.documentElement.scrollTop+rect.top-100); 
+        }else{ 
+            top=(document.documentElement.scrollTop+ rect.bottom+100)-window.innerHeight; 
+        } 
+        window.scroll({ 
+            top:top, 
+            left:0, 
+            behavior:"smooth" 
+        }); 
+    }; 
+    function processCmd(cmd){ 
+        el_submit.disabled=true; 
+        switch(cmd){ 
+            case "obfuscate": 
+                selectText(el_ocode); 
+                fanfare(el_ocode); 
+                scrollToOCode(el_ocode); 
+                break; 
+            case "error": 
+                scrollToOCode(el_ocode); 
+                break; 
+            default: 
+                selectText(el_icode); 
+                break; 
+        } 
+        el_submit.disabled=false; 
+    }; 
+    function setupBtnEvent(name,func){ 
+        document.querySelectorAll(".codebox-btn-" + name).forEach(button => {
+            button.addEventListener("click", func);
+        });
+    }; 
+    function getTextareaInside(el){ 
+        return el.closest(".codebox-form-group").querySelector("textarea"); 
+    }; 
+    function setupPreview(){ 
+        const el_form_preview=document.querySelector(".codebox-form-preview"); 
+        const el_ta_preview=el_form_preview.querySelector("textarea"); 
+        setupBtnEvent("preview",function(e){ 
+            e.preventDefault(); 
+            const el_textarea=getTextareaInside(this); 
+            el_ta_preview.value=el_textarea.value; 
+            el_form_preview.submit(); 
+        }); 
+    }; 
+    function setupSelect(){ 
+        setupBtnEvent("select",function(e){ 
+            e.preventDefault(); 
+            const el_textarea=getTextareaInside(this); 
+            selectText(el_textarea); 
+        }); 
+    }; 
+    function setupCopy(){ 
+        setupBtnEvent("copy",function(e){ 
+            e.preventDefault(); 
+            const el_textarea=getTextareaInside(this); 
+            if(el_textarea.value){ 
+                Clipboard.put(el_textarea.value); 
+                selectText(el_textarea); 
+                alertCopied({ 
+                    msg:"Copied to<br>Clipboard", 
+                    rect_start:this.getBoundingClientRect() 
+                }); 
+            } 
+        }); 
+    }; 
+    // Fungsi untuk setup tombol Download
+    function setupDownload() {
+        setupBtnEvent("download", function(e) {
+            e.preventDefault();
+            const el_textarea = getTextareaInside(this);
+            if (el_textarea.value) {
+                // Tentukan nama file berdasarkan konten
+                const filename = "obfuscated-code.html";
+                downloadFile(filename, el_textarea.value);
+                
+                // Tampilkan notifikasi
+                alertCopied({
+                    msg: "Downloaded<br>Successfully",
+                    rect_start: this.getBoundingClientRect()
+                });
+            }
+        });
+    }
+    function setupSubmit(){ 
+        el_form.addEventListener("submit",function(e){ 
+            el_submit.disabled=true; 
+            WaitScreen.open(); 
+            const len=el_icode.value.length; 
+            function raiseError(msg){ 
+                e.preventDefault(); 
+                el_ocode.value=msg; 
+                processCmd("error"); 
+                WaitScreen.close(); 
+            }; 
+            if(len==0){ 
+                raiseError('ERROR: No text is inputted'); 
+                return; 
+            } 
+            if(n_maxchars<len){ 
+                raiseError('ERROR: Input exceeds the maximum data size limit'); 
+                return; 
+            } 
+        }); 
+    }; 
+    function setup(){ 
+        setupSelect(); 
+        setupCopy(); 
+        setupDownload(); // Tambah ini
+        setupSubmit(); 
+        el_icode.addEventListener("focus",function(){el_icode.select();}); 
+        el_ocode.addEventListener("focus",function(){el_ocode.select();}); 
+        processCmd(cmd); 
+    }; 
+    document.addEventListener("DOMContentLoaded",function(event) { 
+        setTimeout(function(){ 
+            setup(); 
+        },300); 
+    }); 
+})();
+</script>
+<div class="section" style="margin:50px 0  10px 0;">
+<div class="section-title"><span>Installation</span></div> 
+Just copy and paste the output JavaScript code in your web page. The code already includes <b>&lt;script&gt</b> and <b>&lt;/script&gt</b> for your convenience, so there is no need to enclose it in another &lt;script&gt tag.
+</div>
+<style>
+.related-box{ position:relative; margin-top:30px; padding:10px 0; border:0 solid #2ecc71; border-bottom-width:3px; } 
+.related-top{ margin-bottom:12px; height:30px; display:flex; justify-content:flex-start; align-items:center; } 
+.related-line{ height:3px; background-color:#2ecc71; } 
+.related-line.related-line-1{ flex:0 1 40px; } 
+.related-line.related-line-2{ flex:1 1 40px; } 
+.related-title{ flex:0 1 220px; padding:0 5px; font-size:125%; font-weight:bold; color:#2ecc71; text-align:center; } 
+.related{ margin:10px 0; text-decoration:none; border-radius:5px; overflow:hidden; display:flex; justify-content:flex-start; align-items:stretch; } 
+.related.related-sel{ background-color:#e1efe7; cursor:default; } 
+.related:hover{ background-color:#e1efe7; text-decoration:none; } 
+.related-heading{ flex:0 0 40px; text-align:center; color:#2ecc71; display:flex; justify-content:center; align-items:center; } 
+.related-heading::before{ content:"➤"; } 
+.related.related-sel .related-heading{ color:white; background-color:#2ecc71; } 
+.related-body{ padding:10px; } 
+.related-iname{ display:inline-block; font-weight:bold; } 
+.related-iname::after{ content:" :\00A0"; } 
+.related-inote{ display:inline-block; font-size:90%; }
+</style>
+<div class="related-box">
+<div class="related-top">
+<hr class="related-line related-line-1"/>
+<div class="related-title">Obfuscation Tools</div>
+<hr class="related-line related-line-2"/>
+</div>
+<a class="related" href="css-obfuscator"><span class="related-heading"></span><span class="related-body"><span class="related-iname">Online CSS Obfuscator</span><span class="related-inote">Obfuscate CSS Code &amp; Stylesheet</span></span></a>
+<a class="related" href="link-obfuscator"><span class="related-heading"></span><span class="related-body"><span class="related-iname">Online Link Obfuscator</span><span class="related-inote">Hide URL of Link</span></span></a>
+<a class="related related-sel" href="html-obfuscator"><span class="related-heading"></span><span class="related-body"><span class="related-iname">Online HTML Obfuscator</span><span class="related-inote">Heavily Obfuscate HTML Code</span></span></a>
+<a class="related" href="etobf"><span class="related-heading"></span><span class="related-body"><span class="related-iname">Elements Tab Obfuscator</span><span class="related-inote">Obfuscate the Elements tab in DevTools</span></span></a>
+</div>
+</article>
+</div>
+<!--NTA=3-->
+</div><!--/page-body-->
+
+</main>
+
+<footer>
+<style>main{visibility:visible;}</style>
+<style>footer{ text-align:center; }</style>
+<style>
+.share-btn { margin:0 3px; height:30px; cursor:pointer; border-radius:3px; opacity:0.9; } 
+.share-btn:hover { opacity:1; }
+</style>
+<img class="share-btn share-facebook" src="https://www.phpkobo.com/mod/main/v3.00/mod/btpl/img/sns-button/icon-facebook.png"/>
+<img class="share-btn share-twitter" src="https://www.phpkobo.com/mod/main/v3.00/mod/btpl/img/sns-button/icon-twitter.png"/>
+<img class="share-btn share-tumblr" src="https://www.phpkobo.com/mod/main/v3.00/mod/btpl/img/sns-button/icon-tumblr.png"/>
+<img class="share-btn share-pinterest" src="https://www.phpkobo.com/mod/main/v3.00/mod/btpl/img/sns-button/icon-pinterest.png"/>
+<img class="share-btn share-linkedin" src="https://www.phpkobo.com/mod/main/v3.00/mod/btpl/img/sns-button/icon-linkedin.png"/>
+<script>
+if ( CDuan.isMobileDevice() ) { 
+    $(".share-btn").css({opacity:1}); 
+}
+</script>
+<script>
+sessionStorage.setItem("location.href",location.href);
+</script>
+</footer>
+
+</body>
+
+</html>
